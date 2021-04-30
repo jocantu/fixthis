@@ -1,0 +1,12 @@
+
+<h1>GraveWatch</h1>
+<%- include('partials/header') -%>
+<form method="post" action="/signup">
+  <label>Name: <input type="text" name="name"></label>
+  <label>Email: <input type="email" name="email"></label>
+  <label>Password: <input type="password" name="password"></label>
+  <label>Confirm password: <input type="password" name="confirmPassword" autocomplete="false"></label>
+  <button type="submit">Submit</button>
+</form>
+<%- include('partials/footer') -%>
+
